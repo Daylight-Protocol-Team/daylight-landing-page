@@ -1,0 +1,35 @@
+.ourvision-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: radial-gradient(
+      50% 87.89% at 49.44% 50%,
+      #f7e5c5 0%,
+      #ebc4cd 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  min-height: 100vh;
+}
+.ourvision-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    180.82deg,
+    rgba(71, 26, 14, 0) 16.75%,
+    rgba(255, 153, 0, 0.47) 96.67%
+  );
+  transform: rotate(180deg);
+}
+.ourvision-container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  transform: rotate(180deg);
+  flex-wrap: wrap-reverse;
+}

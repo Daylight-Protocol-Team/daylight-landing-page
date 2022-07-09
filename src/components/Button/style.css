@@ -1,0 +1,15 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  background: #ffffff;
+
+  /* // */
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: #da4211;
+}
