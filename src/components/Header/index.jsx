@@ -16,9 +16,10 @@ const Header = () => {
         <img src={LogoBrand} alt="daylight protocol brand" />
       </div>
       <div className="header--links">
-        <div className="header--link">Our Vision</div>
-        <div className="header--link">Features</div>
-        <div className="header--link">Tokenomics</div>
+        <div className="header--link hover-effect">Our Vision</div>
+        <div className="header--link hover-effect">Features</div>
+        <div className="header--link hover-effect">Tokenomics</div>
+        <div className="header--link hover-effect">Blog</div>
       </div>
 
       <div className="header--social">

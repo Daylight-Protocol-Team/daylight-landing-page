@@ -60,15 +60,12 @@
 }
 
 .features--cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  gap: 32px;
 }
 
 .featurecard-container {
   display: flex;
+  flex-shrink: 0;
 
   justify-content: center;
   align-items: center;
@@ -87,13 +84,14 @@
   z-index: 1;
 }
 .featurecard-container-inner {
+  flex-shrink: 0;
   z-index: 2;
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 128px 32px;
+  flex-direction: column;
+  padding: 58px 32px 0px 32px;
   gap: 32px;
 
   width: 317.44px;
@@ -114,4 +112,12 @@
   font-size: 17px;
   line-height: 23px;
   text-align: center;
+}
+.featurecard--top {
+  height: 60px;
+  width: 60px;
+}
+.features--arrow {
+  width: 62.62px;
+  height: 32px;
 }

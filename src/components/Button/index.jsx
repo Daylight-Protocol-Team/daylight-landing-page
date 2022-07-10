@@ -8,10 +8,7 @@ const Button = ({ children, onclick }) => {
     }
   };
   return (
-    <div
-      className="button-container hover-effect"
-      onClick={() => clickHandler()}
-    >
+    <div className="button-container" onClick={() => clickHandler()}>
       {children}
     </div>
   );
