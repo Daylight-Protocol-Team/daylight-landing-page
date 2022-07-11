@@ -16,27 +16,71 @@ const Header = () => {
         <img src={LogoBrand} alt="daylight protocol brand" />
       </div>
       <div className="header--links">
-        <div className="header--link hover-effect">Our Vision</div>
-        <div className="header--link hover-effect">Features</div>
-        <div className="header--link hover-effect">Tokenomics</div>
-        <div className="header--link hover-effect">Blog</div>
+        <div
+          className="header--link hover-effect"
+          data-aos="fade-down"
+          data-aos-delay="200"
+          data-aos-offset="-100"
+          data-aos-easing="ease-in-out"
+        >
+          Our Vision
+        </div>
+        <div
+          className="header--link hover-effect"
+          data-aos="fade-down"
+          data-aos-delay="300"
+          data-aos-offset="-100"
+          data-aos-easing="ease-in-out"
+        >
+          Features
+        </div>
+        <div
+          className="header--link hover-effect"
+          data-aos="fade-down"
+          data-aos-delay="400"
+          data-aos-offset="-100"
+          data-aos-easing="ease-in-out"
+        >
+          Tokenomics
+        </div>
+        <div
+          className="header--link hover-effect"
+          data-aos="fade-down"
+          data-aos-delay="500"
+          data-aos-offset="-100"
+          data-aos-easing="ease-in-out"
+        >
+          Blog
+        </div>
       </div>
 
       <div className="header--social">
         <Icon
-          imgSrc={discordIcon}
+          imgsrc={discordIcon}
           link="#"
-          classname="header--social-icon aic"
+          classnamestyle="header--social-icon aic hover-effect"
+          data-aos="fade-up"
+          data-aos-delay="250"
+          data-aos-offset="-100"
+          data-aos-easing="ease-in-out"
         />
         <Icon
-          imgSrc={telegramIcon}
-          link="#"
-          classname="header--social-icon aic"
+          imgsrc={telegramIcon}
+          link="https://t.me/Daylightprotocol"
+          classnamestyle="header--social-icon aic hover-effect"
+          data-aos="fade-up"
+          data-aos-delay="350"
+          data-aos-offset="-100"
+          data-aos-easing="ease-in-out"
         />
         <Icon
-          imgSrc={twitterIcon}
-          link="#"
-          classname="header--social-icon aic"
+          imgsrc={twitterIcon}
+          link="https://twitter.com/DaylightDeFi"
+          classnamestyle="header--social-icon aic hover-effect"
+          data-aos="fade-up"
+          data-aos-delay="450"
+          data-aos-offset="-100"
+          data-aos-easing="ease-in-out"
         />
       </div>
     </nav>

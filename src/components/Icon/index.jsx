@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
-const Icon = ({ imgSrc, link, classname }) => {
+const Icon = (props) => {
+  const { imgsrc, link, classnamestyle } = props;
   return (
-    <a className={classname} href={link}>
+    <a className={classnamestyle} href={link}>
       <img
+        {...props}
         className="icon--img"
-        src={imgSrc}
+        src={imgsrc}
         alt="icon-alt"
         draggable="false"
         loading="lazy"

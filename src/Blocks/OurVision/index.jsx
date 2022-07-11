@@ -8,7 +8,12 @@ const OurVision = () => {
       <div className="ourvision-container2">
         <div className="ourvision-container3">
           <div className="hero--left">
-            <div className="ourvision--left-title">
+            <div
+              className="ourvision--left-title"
+              data-aos="fade-down"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+            >
               <u style={{ textDecorationThickness: "3px" }}>OUR VISION</u>
             </div>
             <div className="ourvision--left-description-a">
@@ -34,10 +39,19 @@ const OurVision = () => {
               consistent and well-calculated mechanisms, stabilizing the
               protocol.
             </div>
-            <Button>Litepaper → </Button>
+            <Button
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
+            >
+              Litepaper →
+            </Button>
           </div>
           <div className="hero--right wave2 aic">
             <img
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-easing="ease-in-out"
               className="icon--img"
               src={HeroImg}
               alt="brand animation"

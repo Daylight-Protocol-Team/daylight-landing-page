@@ -3,7 +3,8 @@ import Body from "../../Blocks/Body";
 import Hero from "../../Blocks/Hero";
 import OurVision from "../../Blocks/OurVision";
 import Features from "../../Blocks/Features";
-// import Footer from "../../components/Footer";
+import Tokenomics from "../../Blocks/Tokenomics";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -11,7 +12,8 @@ const Home = () => {
       <Hero />
       <OurVision />
       <Features />
-      {/* <Footer /> */}
+      <Tokenomics />
+      <Footer />
     </Body>
   );
 };

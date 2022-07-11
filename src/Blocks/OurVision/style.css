@@ -4,11 +4,10 @@
   align-items: center;
   width: 100%;
   background: radial-gradient(
-      50% 87.89% at 49.44% 50%,
-      #f7e5c5 0%,
-      #ebc4cd 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    50% 87.89% at 49.44% 50%,
+    #f7e5c5 0%,
+    #ebc4cd 100%
+  );
   min-height: 100vh;
 }
 .ourvision-container2 {
@@ -32,6 +31,7 @@
   min-height: 100vh;
   transform: rotate(180deg);
   flex-wrap: wrap-reverse;
+  padding: 0px 32px;
 }
 .ourvision--left-title {
   font-size: 50px;
@@ -41,10 +41,27 @@
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 .ourvision--left-description-a {
   width: 399.8px;
   font-size: 17px;
   line-height: 23px;
   font-family: "Play";
+}
+@media screen and (max-width: 954px) {
+  .ourvision-container3 {
+    padding: 100px 32px;
+  }
+  .ourvision--left-title {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .ourvision--left-title {
+    height: 100%;
+    width: 100%;
+  }
+  .ourvision--left-description-a {
+    height: 100%;
+    width: 100%;
+  }
 }

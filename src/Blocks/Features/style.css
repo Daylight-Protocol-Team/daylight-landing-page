@@ -47,7 +47,6 @@
     rgba(255, 153, 0, 0.47) 96.67%
   );
 }
-
 .features--title {
   font-family: "Unica One";
   font-style: normal;
@@ -58,27 +57,21 @@
 
   color: #652125;
 }
-
 .features--cards {
   width: 100%;
+  cursor: grab;
 }
-
 .featurecard-container {
-  display: flex;
   flex-shrink: 0;
-
-  justify-content: center;
-  align-items: center;
-  padding: 3px;
-  background: linear-gradient(
+  /* padding: 3px; */
+  /* background: linear-gradient(
     to right,
     #f0582e 0%,
     rgba(225, 242, 157, 0.526) 27.08%,
     rgba(171, 196, 234, 0.6695) 51.56%,
     rgba(217, 157, 46, 0.81) 75.52%,
     #f0582e 100%
-  );
-  border-radius: 8px;
+  ); */
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -96,8 +89,11 @@
 
   width: 317.44px;
   height: 500px;
+  border: 3px solid rgb(240, 87, 45, 0.5);
 
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+
+  /* background: #d6ab87; */
   border-radius: 8px;
   font-family: "Play";
   font-style: normal;
@@ -120,4 +116,22 @@
 .features--arrow {
   width: 62.62px;
   height: 32px;
+}
+
+@media screen and (max-width: 420px) {
+  .features--title {
+    font-size: 36px;
+    line-height: 42px;
+    padding: 0px 32px;
+  }
+
+  .featurecard-container-inner {
+    width: 240px;
+    height: 500px;
+  }
+  .featurecard--description {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
 }
