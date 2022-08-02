@@ -1,78 +1,54 @@
 .tokenomics-container {
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(
-    50% 87.89% at 49.44% 50%,
-    #f7e5c5 0%,
-    #ebc4cd 100%
-  );
-  transform: rotate(-180deg);
-}
-.tokenomics-container {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    180.82deg,
-    rgba(71, 26, 14, 0) 16.75%,
-    rgba(255, 153, 0, 0.47) 96.67%
-  );
-  transform: rotate(-180deg);
-}
-.tokenomics-container-inner {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  min-height: 800px;
-  /* height: 1525px; */
-  color: #652125;
-  padding: 362px 172px;
-  transform: rotate(-180deg);
+  padding: 128px 32px;
   gap: 128px;
+  width: 100%;
 }
+
 .tokenomics--left {
-  display: flex;
-  justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   gap: 32px;
+  width: 300px;
 }
+
 .tokenomics--left-img {
   width: 62.11px;
   height: 83.97px;
 }
 .tokenomics--left-title {
-  width: 299.43px;
-  height: 59px;
-
-  /* H1 */
-
-  font-family: "Unica One";
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  line-height: 59px;
+  line-height: 64px;
+  color: #ffffff;
 }
 .tokenomics--left-description {
-  width: 299.43px;
-  height: 184px;
-
-  /* Paragraph */
-
-  font-family: "Play";
+  font-family: "Dongle";
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 24px;
   line-height: 23px;
+  color: #ffffff;
 }
 .tokenomics--right {
-  flex-wrap: wrap;
   gap: 32px;
   width: 800px;
-  min-height: 800px;
 }
-@media screen and (max-width: 1460px) {
-  .tokenomics-container-inner {
-    flex-wrap: wrap;
+.tokenomics--right-section {
+  flex-direction: column;
+  gap: 32px;
+}
+@media screen and (max-width: 1200px) {
+  .tokenomics-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tokenomics--right {
+    flex-direction: column;
+  }
+  .tokenomics--right-section {
+    width: 400px;
   }
 }

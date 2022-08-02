@@ -1,8 +1,9 @@
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 100px;
   max-width: 1440px;
   margin-top: 24px;
   padding: 0px 35px;
@@ -20,7 +21,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: var(--black);
+  color: white;
 }
 .header--social {
   display: flex;

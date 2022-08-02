@@ -3,18 +3,28 @@
   justify-content: center;
   align-items: center;
   padding: 16px 32px;
-  background: #ffffff;
 
+  background: linear-gradient(90deg, #da4a52 0%, #df775a 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
   /* // */
   font-family: "Play";
   font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 23px;
-  color: #da4211;
-  transition: 300ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  /* White */
+
+  color: #ffffff;
+  transition: 900ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
   cursor: pointer;
 }
 .button-container:hover {
-  background: hsl(0, 0%, 90%);
+  background: linear-gradient(
+    90deg,
+    rgb(218, 74, 82, 0.6) 0%,
+    rgb(218, 74, 82, 0.6) 100%
+  );
 }
