@@ -1,7 +1,10 @@
 import React from "react";
 import "./style.css";
 import Button from "../../components/Button";
-import HeroImg from "../../assets/img/brand/ourVision.svg";
+// import HeroImg from "../../assets/img/brand/ourVision.svg";
+import Lottie from "lottie-react";
+import fenix from "../..//assets/animations//Second-Section_final.json";
+
 const OurVision = () => {
   return (
     <div className="ourvision-container">
@@ -38,7 +41,9 @@ const OurVision = () => {
       </div>
       <div className="hero--right  aic">
         <div className="hero--right-img  aic">
-          <img
+          <Lottie animationData={fenix} loop={true} />
+
+          {/* <img
             data-aos="fade-right"
             data-aos-delay="200"
             data-aos-easing="ease-in-out"
@@ -47,7 +52,7 @@ const OurVision = () => {
             alt="brand animation"
             draggable="false"
             loading="lazy"
-          />
+          /> */}
         </div>
         <Button
           style={{ width: "100%" }}

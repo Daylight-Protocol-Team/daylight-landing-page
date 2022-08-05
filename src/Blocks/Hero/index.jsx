@@ -2,9 +2,11 @@ import React from "react";
 import Header from "../../components/Header";
 import Button from "../../components/Button";
 import "./style.css";
-import mountainBG from "../../assets/img/backgrounds/hero-mountain.svg";
-import mountainSingleBG from "../../assets/img/backgrounds/hero-mountain-single.svg";
-import mountainFenixBG from "../../assets/img/backgrounds/hero-mountain-fenix.svg";
+
+import Lottie from "lottie-react";
+// import fenix from "../..//assets/animations/1-Fenix.json";
+import Mountainlottie from "../..//assets/animations/2-Mountain.json";
+import planets from "../..//assets/animations//3-Planets.json";
 
 const HeroSection = ({ offsetY }) => {
   return (
@@ -16,12 +18,9 @@ const HeroSection = ({ offsetY }) => {
           transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
         }}
       >
-        <img
-          className="icon--imgbg"
-          src={mountainBG}
-          alt="brand animation"
-          draggable="false"
-        />
+        <div className="icon--imgbg">
+          {/* <Lottie animationData={fenix} loop={true} /> */}
+        </div>
       </div>
       <div
         className="hero--single"
@@ -30,12 +29,9 @@ const HeroSection = ({ offsetY }) => {
           transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
         }}
       >
-        <img
-          className="icon--imgbg"
-          src={mountainSingleBG}
-          alt="brand animation"
-          draggable="false"
-        />
+        <div className="icon--imgbg">
+          <Lottie animationData={Mountainlottie} loop={true} />
+        </div>
       </div>
       <div
         className="hero--fenix"
@@ -44,12 +40,9 @@ const HeroSection = ({ offsetY }) => {
           transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
         }}
       >
-        <img
-          className="icon--imgbg"
-          src={mountainFenixBG}
-          alt="brand animation"
-          draggable="false"
-        />
+        <div className="icon--imgbg">
+          <Lottie animationData={planets} loop={true} />
+        </div>
       </div>
       <div className="hero-container-header">
         <Header />
