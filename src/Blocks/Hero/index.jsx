@@ -49,7 +49,7 @@ const HeroSection = ({ offsetY }) => {
         <div className="hero-container">
           <div className="hero--left">
             <div
-              className="hero--left-title"
+              className="hero--left-title aic"
               data-aos="fade-up-down"
               data-aos-delay="200"
               data-aos-offset="-100"
@@ -86,7 +86,7 @@ const HeroSection = ({ offsetY }) => {
             </div>
             <div className="hero--left-buttons">
               <Button
-                data-aos="fade-right"
+                data-aos="fade-up-down"
                 data-aos-delay="600"
                 data-aos-offset="-100"
                 data-aos-easing="ease-in-out"
@@ -94,7 +94,7 @@ const HeroSection = ({ offsetY }) => {
                 Buy Now
               </Button>
               <Button
-                data-aos="fade-right"
+                data-aos="fade-up-down"
                 data-aos-delay="700"
                 data-aos-offset="-100"
                 data-aos-easing="ease-in-out"
@@ -103,7 +103,7 @@ const HeroSection = ({ offsetY }) => {
               </Button>
             </div>
           </div>
-          <div className="hero--right  aic"></div>
+          <div className="hero--right"></div>
         </div>
       </div>
     </div>

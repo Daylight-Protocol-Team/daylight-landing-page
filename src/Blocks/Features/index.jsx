@@ -26,7 +26,7 @@ const Features = () => {
     sliderRef.current.swiper.slideNext();
   }, []);
   return (
-    <div className="features-container aic">
+    <div className="features-container aic" id="mechanics">
       <Icon imgsrc={icon1} classnamestyle="features--top" />
       <div
         className="features--title"
@@ -38,7 +38,7 @@ const Features = () => {
       </div>
       <div className="aic">
         <div
-          data-aos="fade-right"
+          data-aos="fade-up-down"
           data-aos-delay="400"
           data-aos-easing="ease-in-out"
           data-aos-once={true}
@@ -48,7 +48,7 @@ const Features = () => {
           <Icon imgsrc={leftArrow} classnamestyle="features--arrow aic" />
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-up-down"
           data-aos-delay="500"
           data-aos-easing="ease-in-out"
           data-aos-once={true}
@@ -81,7 +81,7 @@ const Features = () => {
       >
         <SwiperSlide className="aic">
           <FeatureCard
-            data-aos="fade-left"
+            data-aos="fade-up-down"
             data-aos-delay="200"
             data-aos-easing="ease-in-out"
             title="Daylight Token"
@@ -91,7 +91,7 @@ const Features = () => {
         </SwiperSlide>
         <SwiperSlide className="aic">
           <FeatureCard
-            data-aos="fade-left"
+            data-aos="fade-up-down"
             data-aos-delay="300"
             data-aos-easing="ease-in-out"
             lottie={compound}
@@ -102,7 +102,7 @@ const Features = () => {
         </SwiperSlide>
         <SwiperSlide className="aic">
           <FeatureCard
-            data-aos="fade-left"
+            data-aos="fade-up-down"
             data-aos-delay="400"
             data-aos-easing="ease-in-out"
             lottie={rfv}
@@ -112,7 +112,7 @@ const Features = () => {
         </SwiperSlide>
         <SwiperSlide className="aic">
           <FeatureCard
-            data-aos="fade-left"
+            data-aos="fade-up-down"
             data-aos-delay="500"
             data-aos-easing="ease-in-out"
             lottie={dynamic}
@@ -122,7 +122,7 @@ const Features = () => {
         </SwiperSlide>
         <SwiperSlide className="aic">
           <FeatureCard
-            data-aos="fade-left"
+            data-aos="fade-up-down"
             data-aos-delay="600"
             data-aos-easing="ease-in-out"
             img={icon6}

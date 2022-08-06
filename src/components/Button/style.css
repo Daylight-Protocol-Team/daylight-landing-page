@@ -13,11 +13,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  /* identical to box height */
-
-  /* White */
-
   color: #ffffff;
+
   transition: 900ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
   cursor: pointer;
 }

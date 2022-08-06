@@ -7,7 +7,7 @@ import fenix from "../..//assets/animations//Second-Section_final.json";
 
 const OurVision = () => {
   return (
-    <div className="ourvision-container">
+    <div className="ourvision-container" id="ourvision">
       <div className="hero--left aic">
         <div
           className="ourvision--left-title"
@@ -44,7 +44,7 @@ const OurVision = () => {
           <Lottie animationData={fenix} loop={true} />
 
           {/* <img
-            data-aos="fade-right"
+            data-aos="fade-up-down"
             data-aos-delay="200"
             data-aos-easing="ease-in-out"
             className="icon--img"
@@ -56,7 +56,7 @@ const OurVision = () => {
         </div>
         <Button
           style={{ width: "100%" }}
-          data-aos="fade-right"
+          data-aos="fade-up-down"
           data-aos-delay="200"
           data-aos-easing="ease-in-out"
         >

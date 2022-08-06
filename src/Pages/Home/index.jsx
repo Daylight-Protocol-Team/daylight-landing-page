@@ -4,7 +4,7 @@ import Hero from "../../Blocks/Hero";
 import OurVision from "../../Blocks/OurVision";
 import Features from "../../Blocks/Features";
 import Tokenomics from "../../Blocks/Tokenomics";
-// import Footer from "../../components/Footer";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   const [offsetY, setoffsetY] = useState(0);
@@ -23,7 +23,7 @@ const Home = () => {
       <OurVision />
       <Features />
       <Tokenomics />
-      {/*    <Footer /> */}
+      <Footer />
     </Body>
   );
 };
