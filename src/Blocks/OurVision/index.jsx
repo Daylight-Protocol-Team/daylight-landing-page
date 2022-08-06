@@ -51,7 +51,6 @@ const OurVision = () => {
             src={HeroImg}
             alt="brand animation"
             draggable="false"
-            loading="lazy"
           /> */}
         </div>
         <Button
