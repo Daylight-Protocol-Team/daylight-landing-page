@@ -87,7 +87,7 @@ const Header = () => {
           data-aos-easing="ease-in-out"
         />
       </div>
-      <div className="header--mobile aic">
+      <div className="header--mobile ">
         <button type="button" onClick={() => setIsOpen(() => true)}>
           <Icon
             imgsrc={menuIcon}
