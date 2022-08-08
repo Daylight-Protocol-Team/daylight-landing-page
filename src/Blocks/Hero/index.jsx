@@ -4,7 +4,7 @@ import Button from "../../components/Button";
 import "./style.css";
 
 import Lottie from "lottie-react";
-// import fenix from "../..//assets/animations/1-Fenix.json";
+import fenix from "../..//assets/animations/1-Fenix.json";
 import Mountainlottie from "../..//assets/animations/2-Mountain.json";
 import planets from "../..//assets/animations//3-Planets.json";
 
@@ -14,18 +14,18 @@ const HeroSection = ({ offsetY }) => {
       <div
         className="hero--background"
         style={{
-          transform: `translateY(${offsetY * 0.3}px)`,
+          transform: `translateY(${offsetY * 0.5}px)`,
           transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
         }}
       >
         <div className="icon--imgbg">
-          {/* <Lottie animationData={fenix} loop={true} /> */}
+          <Lottie animationData={planets} loop={true} />
         </div>
       </div>
       <div
         className="hero--single"
         style={{
-          transform: `translateY(-${offsetY * 0.3}px)`,
+          transform: `translateY(-${offsetY * 0.5}px)`,
           transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
         }}
       >
@@ -36,12 +36,12 @@ const HeroSection = ({ offsetY }) => {
       <div
         className="hero--fenix"
         style={{
-          transform: `translateY(${offsetY * 0.3}px)`,
+          transform: `translateY(${offsetY * 0.5}px)`,
           transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
         }}
       >
         <div className="icon--imgbg">
-          <Lottie animationData={planets} loop={true} />
+          <Lottie animationData={fenix} loop={true} />
         </div>
       </div>
       <div className="hero-container-header">
@@ -55,10 +55,7 @@ const HeroSection = ({ offsetY }) => {
               data-aos-offset="-100"
               data-aos-easing="ease-in-out"
             >
-              <u style={{ textDecorationThickness: "3px" }}>
-                BUILT FOR SUSTAINABILITY
-              </u>
-              <div className="not-underline">DEFI 3.0 REDEFINED</div>
+              Revolutionizing Wealth Generation and Distribution
             </div>
             <div
               data-aos="fade-up"

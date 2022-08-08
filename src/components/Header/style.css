@@ -43,7 +43,7 @@
 .header--mobile {
   display: none;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1120px) {
   .header--mobile {
     display: flex;
   }
