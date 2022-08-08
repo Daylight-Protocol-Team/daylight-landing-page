@@ -44,6 +44,7 @@ const HeroSection = ({ offsetY }) => {
           <Lottie animationData={fenix} loop={true} />
         </div>
       </div>
+
       <div className="hero-container-header">
         <Header />
         <div className="hero-container">
