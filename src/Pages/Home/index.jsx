@@ -19,7 +19,7 @@ const Home = () => {
   }, []);
   return (
     <Body>
-      <Hero offsetY={offsetY} />
+      <Hero offsetY={offsetY > 1000 ? 1000 : offsetY} />
       <OurVision />
       <Features />
       <Tokenomics />

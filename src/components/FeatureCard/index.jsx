@@ -11,7 +11,7 @@ const FeatureCard = (props) => {
         <Icon
           imgsrc={img}
           classnamestyle="featurecard--top aic "
-          extraStyle={cardv2 ? { marginTop: "0px " } : {}}
+          extrastyle={cardv2 ? { marginTop: "0px " } : {}}
         />
       )}
       {lottie && (

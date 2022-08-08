@@ -4,45 +4,50 @@ import Button from "../../components/Button";
 import "./style.css";
 
 import Lottie from "lottie-react";
-import fenix from "../..//assets/animations/1-Fenix.json";
+import fenix from "../../assets/img/brand/Fenix-Hill.svg";
+// import fenix from "../..//assets/animations/1-Fenix.json";
 import Mountainlottie from "../..//assets/animations/2-Mountain.json";
 import planets from "../..//assets/animations//3-Planets.json";
 
 const HeroSection = ({ offsetY }) => {
   return (
     <div className="hero--shell aic">
-      <div
-        className="hero--background"
-        style={{
-          transform: `translateY(${offsetY * 0.5}px)`,
-          transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
-        }}
-      >
-        <div className="icon--imgbg">
+      <div className="hero--background">
+        <div
+          className="icon--imgbg"
+          style={{
+            transform: `translateY(${offsetY * 0.5}px)`,
+            transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
+          }}
+        >
           <Lottie animationData={planets} loop={true} />
         </div>
       </div>
-      <div
-        className="hero--single"
-        style={{
-          transform: `translateY(-${offsetY * 0.5}px)`,
-          transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
-        }}
-      >
-        <div className="icon--imgbg">
+      <div className="hero--single">
+        <div
+          className="icon--imgbg"
+          style={{
+            transform: `translateY(-${offsetY * 0.5}px)`,
+            transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
+          }}
+        >
           <Lottie animationData={Mountainlottie} loop={true} />
         </div>
       </div>
-      <div
-        className="hero--fenix"
-        style={{
-          transform: `translateY(${offsetY * 0.5}px)`,
-          transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
-        }}
-      >
-        <div className="icon--imgbg">
-          <Lottie animationData={fenix} loop={true} />
-        </div>
+      <div className="hero--fenix">
+        <img
+          style={{
+            transform: `translateY(${offsetY * 0.5}px)`,
+            transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
+          }}
+          className="icon--imgbg"
+          src={fenix}
+          alt="brand animation"
+          draggable="false"
+        />
+        {/* <div className="icon--imgbg"> *
+        <Lottie animationData={fenix} loop={true} /> 
+       </div> */}
       </div>
 
       <div className="hero-container-header">
