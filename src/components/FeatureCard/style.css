@@ -10,6 +10,8 @@
   border: 3px solid #f0572d80;
   background: #ffffff1a;
   border-radius: 8px;
+  position: relative;
+  z-index: 1;
 
   flex-shrink: 0;
 }

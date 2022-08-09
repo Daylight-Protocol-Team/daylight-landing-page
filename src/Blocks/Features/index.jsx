@@ -26,8 +26,8 @@ const Features = () => {
     sliderRef.current.swiper.slideNext();
   }, []);
   return (
-    <div className="features-container aic" id="mechanics">
-      <Icon imgsrc={icon1} classnamestyle="features--top" />
+    <div className="features-container aic">
+      <Icon imgsrc={icon1} />
       <div
         className="features--title"
         data-aos="fade-down"

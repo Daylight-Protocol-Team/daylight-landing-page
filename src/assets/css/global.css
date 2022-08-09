@@ -103,3 +103,11 @@ body {
 .swiper-button-prev {
   display: none !important;
 }
+
+.swiper-container {
+  z-index: auto !important;
+}
+
+.swiper-wrapper {
+  z-index: auto !important;
+}

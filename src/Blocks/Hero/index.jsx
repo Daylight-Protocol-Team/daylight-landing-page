@@ -16,7 +16,7 @@ const HeroSection = ({ offsetY }) => {
         <div
           className="icon--imgbg"
           style={{
-            transform: `translateY(${offsetY * 0.5}px)`,
+            transform: `translateY(-${offsetY * 0.5}px)`,
             transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
           }}
         >
@@ -27,7 +27,7 @@ const HeroSection = ({ offsetY }) => {
         <div
           className="icon--imgbg"
           style={{
-            transform: `translateY(-${offsetY * 0.5}px)`,
+            transform: `translateY(${offsetY * 0.3}px)`,
             transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
           }}
         >
@@ -88,15 +88,23 @@ const HeroSection = ({ offsetY }) => {
               RFV sustainability and survivability.
             </div>
             <div className="hero--left-buttons">
-              <Button
-                data-aos="fade-up-down"
-                data-aos-delay="600"
-                data-aos-offset="-100"
-                data-aos-easing="ease-in-out"
+              <a
+                href="https://presale.daylightprotocol.com/"
+                style={{ textDecoration: "none", width: "100%" }}
               >
-                Buy Now
-              </Button>
+                <Button
+                  data-aos="fade-up-down"
+                  data-aos-delay="600"
+                  data-aos-offset="-100"
+                  data-aos-easing="ease-in-out"
+                >
+                  Pre-Sale
+                </Button>
+              </a>
               <Button
+                style={{
+                  whiteSpace: "nowrap",
+                }}
                 data-aos="fade-up-down"
                 data-aos-delay="700"
                 data-aos-offset="-100"

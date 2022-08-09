@@ -20,6 +20,8 @@
 .features--cards {
   width: 100%;
   cursor: grab;
+  position: relative;
+  z-index: 1;
 }
 .features--arrow {
   width: 62.62px;

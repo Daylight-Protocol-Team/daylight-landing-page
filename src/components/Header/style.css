@@ -1,3 +1,11 @@
+.header-container-outer {
+  backdrop-filter: saturate(180%) blur(20px);
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
 .header-container {
   display: flex;
   justify-content: center;
@@ -5,11 +13,9 @@
   width: 100%;
   gap: 100px;
   max-width: 1440px;
-  margin-top: 24px;
-  padding: 0px 35px;
-  position: relative;
-  z-index: 2;
+  padding: 16px;
 }
+
 .header--brand {
   width: 111.44px;
   height: 63.56px;
@@ -26,7 +32,6 @@
   font-weight: 400;
   font-size: 21px;
   line-height: 30px;
-
   color: white;
   text-decoration: none;
 }
@@ -46,6 +51,7 @@
 @media screen and (max-width: 1120px) {
   .header--mobile {
     display: flex;
+    flex-shrink: 0;
   }
   .header--links,
   .header--social {
@@ -53,9 +59,11 @@
   }
   .header-container {
     justify-content: space-between;
-    gap: none;
+    gap: 0px;
     max-width: 100%;
-    margin-top: 24px;
-    padding: 0px 16px;
+    width: 100%;
+
+    /* margin-top: 24px; */
+    /* padding: 0px 16px; */
   }
 }
