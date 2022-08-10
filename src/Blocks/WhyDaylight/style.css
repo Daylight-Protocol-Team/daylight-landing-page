@@ -1,22 +1,22 @@
-.tokenomics-container {
+.whydaylight-container {
   padding: 128px 32px;
   gap: 128px;
   width: 100%;
   align-items: flex-start;
 }
 
-.tokenomics--left {
+.whydaylight--left {
   align-items: flex-start;
   flex-direction: column;
   gap: 32px;
   width: 344.29px;
 }
 
-.tokenomics--left-img {
+.whydaylight--left-img {
   width: 62.11px;
   height: 83.97px;
 }
-.tokenomics--left-title {
+.whydaylight--left-title {
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 400;
@@ -24,7 +24,7 @@
   line-height: 64px;
   color: #ffffff;
 }
-.tokenomics--left-description {
+.whydaylight--left-description {
   font-family: "Dongle";
   font-style: normal;
   font-weight: 400;
@@ -32,7 +32,7 @@
   line-height: 23px;
   color: #ffffff;
 }
-.tokenomics--right {
+.whydaylight--right {
   gap: 32px;
   width: 700px;
   flex-direction: column;
@@ -42,7 +42,7 @@
   gap: 32px;
   align-items: flex-start;
 }
-.tokenomics--right-img {
+.whydaylight--right-img {
   width: 60px;
   height: 60px;
 }
@@ -73,21 +73,21 @@
   color: #ffffff;
 }
 @media screen and (max-width: 1200px) {
-  .tokenomics-container {
+  .whydaylight-container {
     flex-direction: column;
     align-items: center;
   }
 }
 @media screen and (max-width: 800px) {
-  .tokenomics--right {
+  .whydaylight--right {
     width: 350px;
   }
 }
 @media screen and (max-width: 450px) {
-  .tokenomics--left {
+  .whydaylight--left {
     width: 100%;
   }
-  .tokenomics--right {
+  .whydaylight--right {
     width: 100%;
   }
 }

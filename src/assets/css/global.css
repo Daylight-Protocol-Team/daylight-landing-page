@@ -19,6 +19,12 @@
   transform: scale(1.1);
   cursor: pointer;
 }
+.hover-effect-c:hover {
+  transition: 400ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  transform: scale(1.01);
+  opacity: 0.6;
+  cursor: pointer;
+}
 body {
   overflow-x: hidden;
 }
@@ -104,10 +110,9 @@ body {
   display: none !important;
 }
 
-.swiper-container {
-  z-index: auto !important;
-}
-
-.swiper-wrapper {
-  z-index: auto !important;
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide,
+.swiper-slide-duplicate {
+  z-index: -1 !important;
 }

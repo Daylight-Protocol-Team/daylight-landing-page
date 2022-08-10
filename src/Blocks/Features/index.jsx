@@ -26,7 +26,7 @@ const Features = () => {
     sliderRef.current.swiper.slideNext();
   }, []);
   return (
-    <div className="features-container aic">
+    <div className="features-container aic" id="mechanics">
       <Icon imgsrc={icon1} />
       <div
         className="features--title"
@@ -86,7 +86,7 @@ const Features = () => {
             data-aos-easing="ease-in-out"
             title="Daylight Token"
             lottie={tokencard}
-            description="$DAYL token is a deflationary C-Chain token with an elastic supply that rewards holders with a positive rebase reward over time for just holding. $DAYL also has unique utilities that will be introduced in our ecosystem extensions."
+            description="$DAYL token is a deflationary C-Chain token with an elastic supply that rewards holders with a positive rebase reward over time for just holding. "
           />
         </SwiperSlide>
         <SwiperSlide className="aic">
@@ -96,8 +96,7 @@ const Features = () => {
             data-aos-easing="ease-in-out"
             lottie={compound}
             title="Auto-Compound"
-            description="Through an auto-rebase system and fixed compound interest automatic staking protocol, holders get rewards directly in their wallets at a set APY of 160,589.28 percent that is sustainable and calculated with efficiency in parallel to RFV sustainability and survivability. 
-            "
+            description="Through an auto-rebase system and fixed compound interest automatic staking protocol, holders get rewards directly in their wallets at a set APY of 160,589.28 percent.      "
           />
         </SwiperSlide>
         <SwiperSlide className="aic">
@@ -126,9 +125,8 @@ const Features = () => {
             data-aos-delay="600"
             data-aos-easing="ease-in-out"
             img={icon6}
-            title="Daylight Vault"
-            description="The Daylight Vault is a protected safe that stores certain transactional fees received from the protocol and are used to extend the ecosystem by developing use cases for sustainability in regards to the Daylight Token, and to also invest in appreciative funds for the protocol, which are then used to fund development for ecosystem branches and components. 
-            Daylight Vault is also considered as a SAFU fund for the protocol in the event of any DeFi related exploitations or loss of protocol funds. "
+            title="Daylight Reserve"
+            description="Echelon’s most optimized auto-staking and auto-compounding protocol with an APY of 54,768%. Interest rewards are compounded every 30 minutes for every ECH wallet holding any $ECHO tokens."
           />
         </SwiperSlide>
       </Swiper>

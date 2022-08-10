@@ -10,6 +10,7 @@ import mediumIcon from "../../assets/img/socials/medium.svg";
 import telegramIcon from "../../assets/img/socials/telegram.svg";
 import twitterIcon from "../../assets/img/socials/twitter.svg";
 import menuIcon from "../../assets/img/icons/menu.svg";
+import tabIcon from "../../assets/img/icons/tab.svg";
 
 import Icon from "../Icon";
 import Menu from ".//Menu";
@@ -34,62 +35,64 @@ const Header = () => {
         <div className="header--links">
           <HashLink
             className="header--link hover-effect"
-            data-aos="fade-down"
-            data-aos-delay="200"
-            data-aos-offset="-100"
-            data-aos-easing="ease-in-out"
             smooth={true}
             to="#ourvision"
           >
             Our Vision
           </HashLink>
-          <HashLink
-            className="header--link hover-effect"
-            data-aos="fade-down"
-            data-aos-delay="250"
-            data-aos-offset="-100"
-            data-aos-easing="ease-in-out"
-            smooth={true}
-            to="#mechanics"
-          >
-            Mechanics
-          </HashLink>
-          <div
-            className="header--link hover-effect"
-            data-aos="fade-down"
-            data-aos-delay="300"
-            data-aos-offset="-100"
-            data-aos-easing="ease-in-out"
-          >
-            Products
+
+          <div className="header--link   header--link-options aic">
+            <div className="aic">Products</div>
+            <img
+              className="header--link-tab aic"
+              src={tabIcon}
+              alt="icon-alt"
+              draggable="false"
+            />
+            <div className="header--link-options-list aic">
+              <div className="header--link-options-list-option-disable ">
+                Project Apollo
+              </div>
+              <div className="header--link-options-list-option-disable ">
+                Phoenicis Roulette
+              </div>
+              <div className="header--link-options-list-option-disable ">
+                Casa Daylight
+              </div>
+              <div className="header--link-options-list-option-disable ">
+                Project Orion
+              </div>
+            </div>
           </div>
-          <HashLink
-            className="header--link hover-effect"
-            data-aos="fade-down"
-            data-aos-delay="350"
-            data-aos-offset="-100"
-            data-aos-easing="ease-in-out"
-            smooth={true}
-            to="#tokenomics"
-          >
-            Tokenomics
-          </HashLink>
-          <div
-            className="header--link hover-effect"
-            data-aos="fade-down"
-            data-aos-delay="400"
-            data-aos-offset="-100"
-            data-aos-easing="ease-in-out"
-          >
-            Documentation
+          <div className="header--link   header--link-options aic">
+            <div className="aic">Mechanisms</div>
+            <img
+              className="header--link-tab aic"
+              src={tabIcon}
+              alt="icon-alt"
+              draggable="false"
+            />
+            <div className="header--link-options-list aic">
+              <HashLink
+                smooth={true}
+                to="#whydaylight"
+                className="header--link hover-effect-c"
+              >
+                Why Daylight
+              </HashLink>
+              <div className="header--link-options-list-option-disable ">
+                Roadmap
+              </div>
+              <div className="header--link-options-list-option-disable ">
+                Tokenomics
+              </div>
+            </div>
           </div>
+
+          <div className="header--link hover-effect">Documentation</div>
           <a
             href="https://presale.daylightprotocol.com"
             className="header--link hover-effect"
-            data-aos="fade-down"
-            data-aos-delay="450"
-            data-aos-offset="-100"
-            data-aos-easing="ease-in-out"
           >
             Pre-Sale
           </a>

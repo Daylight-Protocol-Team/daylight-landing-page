@@ -8,6 +8,7 @@ import TelegramIcon from "../../../assets/img/socials/telegram.svg";
 import DiscordIcon from "../../../assets/img/socials/discord.svg";
 import TwitterIcon from "../../../assets/img/socials/twitter.svg";
 import { HashLink } from "react-router-hash-link";
+import tabIcon from "../../../assets/img/icons/tab.svg";
 
 const Menu = ({ isOpen, close }) => {
   return (
@@ -33,22 +34,61 @@ const Menu = ({ isOpen, close }) => {
         >
           Our Vision
         </HashLink>
-        <HashLink
-          onClick={() => close()}
-          smooth={true}
-          to="#mechanics"
-          className="hover-effect menu--links-link"
-        >
+        <div className="menu--links-link aic menu--link-options">
+          Products
+          <img
+            className="menu--link-tab aic"
+            src={tabIcon}
+            alt="icon-alt"
+            draggable="false"
+          />
+          <div className="menu--link-options-list aic">
+            <div className="menu--link-options-list-option-disable ">
+              Project Apollo
+            </div>
+            <div className="menu--link-options-list-option-disable ">
+              Phoenicis Roulette
+            </div>
+            <div className="menu--link-options-list-option-disable ">
+              Casa Daylight
+            </div>
+            <div className="menu--link-options-list-option-disable ">
+              Project Orion
+            </div>
+          </div>
+        </div>
+        <div className="menu--links-link aic menu--link-options">
           Mechanics
-        </HashLink>
-        <HashLink
-          onClick={() => close()}
-          smooth={true}
-          to="#tokenomics"
+          <img
+            className="menu--link-tab aic"
+            src={tabIcon}
+            alt="icon-alt"
+            draggable="false"
+          />
+          <div className="menu--link-options-list aic">
+            <HashLink
+              onClick={() => close()}
+              smooth={true}
+              to="#whydaylight"
+              className="menu--links-link hover-effect-c"
+            >
+              Why Daylight
+            </HashLink>
+            <div className="menu--link-options-list-option-disable ">
+              Roadmap
+            </div>
+            <div className="menu--link-options-list-option-disable ">
+              Tokenomics
+            </div>
+          </div>
+        </div>
+        <div className="hover-effect menu--links-link">Documentation</div>
+        <a
+          href="https://presale.daylightprotocol.com"
           className="hover-effect menu--links-link"
         >
-          Tokenomics
-        </HashLink>
+          Pre-Sale
+        </a>
       </div>
       <div className="menu--bottom aic">
         <div className="menu--socials aic">

@@ -7,6 +7,8 @@ import mediumIcon from "../../assets/img/socials/medium.svg";
 import discordIcon from "../../assets/img/socials/discord.svg";
 import telegramIcon from "../../assets/img/socials/telegram.svg";
 import twitterIcon from "../../assets/img/socials/twitter.svg";
+import tabIcon from "../../assets/img/icons/tab.svg";
+
 import Icon from "../Icon";
 const Footer = () => {
   return (
@@ -34,7 +36,7 @@ const Footer = () => {
         />
       </div>
       <div className="footer--bottom aic">
-        <div className="footer--bottom-links aic ">
+        <div className="footer--bottom-links aic  ">
           <HashLink
             smooth={true}
             to="#ourvision"
@@ -42,22 +44,66 @@ const Footer = () => {
           >
             Our Vision
           </HashLink>
+
           <div className="footer--bottom-div" />
-          <HashLink
-            smooth={true}
-            to="#mechanics"
-            className="hover-effect footer--bottom-link"
-          >
+
+          <div className=" footer--bottom-link aic footer--link-options">
+            Products
+            <img
+              className="footer--link-tab aic"
+              src={tabIcon}
+              alt="icon-alt"
+              draggable="false"
+            />
+            <div className="footer--link-options-list aic">
+              <div className="footer--link-options-list-option-disable ">
+                Project Apollo
+              </div>
+              <div className="footer--link-options-list-option-disable ">
+                Phoenicis Roulette
+              </div>
+              <div className="footer--link-options-list-option-disable ">
+                Casa Daylight
+              </div>
+              <div className="footer--link-options-list-option-disable ">
+                Project Orion
+              </div>
+            </div>
+          </div>
+          <div className="footer--bottom-div" />
+          <div className=" footer--bottom-link aic footer--link-options">
             Mechanics
-          </HashLink>
+            <img
+              className="footer--link-tab aic"
+              src={tabIcon}
+              alt="icon-alt"
+              draggable="false"
+            />
+            <div className="footer--link-options-list aic">
+              <HashLink
+                smooth={true}
+                to="#whydaylight"
+                className="footer--bottom-link hover-effect-c"
+              >
+                Why Daylight
+              </HashLink>
+              <div className="footer--link-options-list-option-disable ">
+                Roadmap
+              </div>
+              <div className="footer--link-options-list-option-disable ">
+                Tokenomics
+              </div>
+            </div>
+          </div>
           <div className="footer--bottom-div" />
-          <HashLink
-            smooth={true}
-            to="#tokenomics"
+          <div className="hover-effect footer--bottom-link">Documentation</div>
+          <div className="footer--bottom-div" />
+          <a
+            href="https://presale.daylightprotocol.com"
             className="hover-effect footer--bottom-link"
           >
-            Tokenomics
-          </HashLink>
+            Pre-Sale
+          </a>
         </div>
 
         <Icon
