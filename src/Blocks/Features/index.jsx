@@ -6,7 +6,6 @@ import "swiper/css";
 import Icon from "../../components/Icon";
 import icon1 from "../../assets/img/icons/stone1.svg";
 
-import icon6 from "../../assets/img/icons/stone6.svg";
 import leftArrow from "../../assets/img/icons/leftArrow.svg";
 import rightArrow from "../../assets/img/icons/rightArrow.svg";
 import FeatureCard from "../../components/FeatureCard";
@@ -15,6 +14,7 @@ import tokencard from "../..//assets/animations//Daylight-Token-Card.json";
 import compound from "../..//assets/animations//Auto-Compound-Card.json";
 import dynamic from "../..//assets/animations//Dynamic-Card.json";
 import rfv from "../..//assets/animations//RFV-Card.json";
+import diamond from "../..//assets/animations//Diamonds-Card.json";
 const Features = () => {
   const sliderRef = useRef(null);
   const handlePrev = useCallback(() => {
@@ -124,9 +124,10 @@ const Features = () => {
             data-aos="fade-up-down"
             data-aos-delay="600"
             data-aos-easing="ease-in-out"
-            img={icon6}
-            title="Daylight Reserve"
-            description="Echelon’s most optimized auto-staking and auto-compounding protocol with an APY of 54,768%. Interest rewards are compounded every 30 minutes for every ECH wallet holding any $ECHO tokens."
+            // img={icon6}
+            lottie={diamond}
+            title="Daylight Vault"
+            description="The Daylight Vault is a protected safe that stores certain transactional fees received from the protocol and are used to extend the ecosystem by developing use cases for sustainability in regards to the Daylight Token. Daylight Vault is also considered as a SAFU fund for the protocol in the event of any DeFi related exploitations or loss of protocol funds."
           />
         </SwiperSlide>
       </Swiper>

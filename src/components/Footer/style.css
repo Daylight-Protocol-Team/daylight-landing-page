@@ -25,6 +25,7 @@
   text-align: left;
 
   color: #ffffff;
+  text-decoration: none;
 }
 .footer-top-list-option {
   font-family: "Dongle";
@@ -89,7 +90,7 @@
 }
 
 .footer--socials {
-  gap: 16px;
+  gap: 24px;
 }
 
 .footer-bottom {

@@ -14,10 +14,20 @@ const Footer = () => {
     <div className="footer--container aic">
       <div className="footer-top aic">
         <div className="footer-top-list aic">
-          <div className="footer-top-list-title">Our Vision</div>
-          <div className="footer-top-list-option hover-effect">
-            Help & Support
-          </div>
+          <div className="footer-top-list-title">Project Daylight</div>
+          <HashLink
+            className="footer-top-list-option hover-effect"
+            smooth={true}
+            to="#ourvision"
+          >
+            Our Vision
+          </HashLink>
+          <a
+            href="https://presale.daylightprotocol.com"
+            className="footer-top-list-option hover-effect"
+          >
+            Pre-Sale Dashboard
+          </a>
         </div>
         <div className="footer-top-list aic">
           <div className="footer-top-list-title">Products</div>
@@ -35,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-top-list aic">
-          <div className="footer-top-list-title">Mehcanisms</div>
+          <div className="footer-top-list-title">Ecosystem</div>
           <HashLink
             className="footer-top-list-option hover-effect"
             smooth={true}
@@ -59,8 +69,8 @@ const Footer = () => {
           </HashLink>
         </div>
         <div className="footer-top-list aic">
-          <div className="footer-top-list-title">About</div>
-          <div className="footer-top-list-option hover-effect">Documention</div>
+          <div className="footer-top-list-title">Documention</div>
+
           <a
             href="https://daylight-protocol.gitbook.io/litepaper/"
             target={"_blank"}
@@ -70,7 +80,7 @@ const Footer = () => {
             Litepaper
           </a>
           <a
-            href="https://presale.daylightprotocol.com"
+            href="https://daylight-protocol.gitbook.io/litepaper/pre-sale-and-launch"
             className="footer-top-list-option hover-effect"
           >
             Pre-Sale
@@ -84,38 +94,40 @@ const Footer = () => {
             Get the latest news and updates
           </div>
           <button type="button" className="footer-top-sub-button aic">
-            Subscribe
+            Coming Soon
           </button>
-          <Icon
-            imgsrc={LogoBrand}
-            classnamestyle="footer-top-sub-img  aic hover-effect"
-          />
-
-          <div className="footer--socials aic">
-            <Icon
-              imgsrc={mediumIcon}
-              link="https://medium.com/@DaylightProtocol"
-              classnamestyle="footer--social aic hover-effect"
-            />
-            <Icon
-              imgsrc={discordIcon}
-              link="https://discord.com/invite/wSagPDSfh3"
-              classnamestyle="footer--social aic hover-effect"
-            />
-            <Icon
-              imgsrc={telegramIcon}
-              link="https://t.me/Daylightprotocol"
-              classnamestyle="footer--social aic hover-effect"
-            />
-            <Icon
-              imgsrc={twitterIcon}
-              link="https://twitter.com/DaylightDeFi"
-              classnamestyle="footer--social aic hover-effect"
-            />
-          </div>
         </div>
       </div>
-      <div className="footer-bottom aic">
+      <div
+        className="footer-bottom aic"
+        style={{ flexDirection: "column", gap: "18px" }}
+      >
+        <Icon
+          imgsrc={LogoBrand}
+          classnamestyle="footer-top-sub-img  aic hover-effect"
+        />
+        <div className="footer--socials aic">
+          <Icon
+            imgsrc={mediumIcon}
+            link="https://medium.com/@DaylightProtocol"
+            classnamestyle="footer--social aic hover-effect"
+          />
+          <Icon
+            imgsrc={discordIcon}
+            link="https://discord.com/invite/wSagPDSfh3"
+            classnamestyle="footer--social aic hover-effect"
+          />
+          <Icon
+            imgsrc={telegramIcon}
+            link="https://t.me/Daylightprotocol"
+            classnamestyle="footer--social aic hover-effect"
+          />
+          <Icon
+            imgsrc={twitterIcon}
+            link="https://twitter.com/DaylightDeFi"
+            classnamestyle="footer--social aic hover-effect"
+          />
+        </div>
         © {new Date().getFullYear()} Daylight Capital, All Rights Reserved.
       </div>
     </div>

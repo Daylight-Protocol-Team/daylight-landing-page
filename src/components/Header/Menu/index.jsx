@@ -11,7 +11,7 @@ import { HashLink } from "react-router-hash-link";
 import tabIcon from "../../../assets/img/icons/tab.svg";
 
 const Menu = ({ isOpen, close }) => {
-  const [isOpenTab1, setisOpenTab1] = useState(false);
+  // const [isOpenTab1, setisOpenTab1] = useState(false);
   const [isOpenTab2, setisOpenTab2] = useState(false);
   return (
     <div
@@ -42,11 +42,19 @@ const Menu = ({ isOpen, close }) => {
             >
               Our Vision
             </HashLink>
-            <div
+            <HashLink
+              onClick={() => close()}
+              smooth={true}
+              to="#products"
+              className="menu--links-link aic"
+            >
+              Products
+            </HashLink>
+            {/* <div
               className="menu--links-link aic menu--links-tab"
               onClick={() => setisOpenTab1((prev) => !prev)}
             >
-              Projects
+              Products
               <img
                 className="menu--link-tab aic"
                 src={tabIcon}
@@ -65,13 +73,13 @@ const Menu = ({ isOpen, close }) => {
               <div className=" menu--links-tab-option"> Phoenicis Roulette</div>
               <div className=" menu--links-tab-option"> Casa Daylight</div>
               <div className=" menu--links-tab-option"> Project Orion</div>
-            </div>
+            </div> */}
 
             <div
               className="menu--links-link aic menu--links-tab"
               onClick={() => setisOpenTab2((prev) => !prev)}
             >
-              Mechanisms
+              Ecosystem
               <img
                 className="menu--link-tab aic"
                 src={tabIcon}
@@ -111,12 +119,12 @@ const Menu = ({ isOpen, close }) => {
                 Tokenomics
               </HashLink>
             </div>
-            <div className="menu--links-link aic">Documentation</div>
+            <div className="menu--links-link aic">Litepaper</div>
             <a
               href="https://presale.daylightprotocol.com"
               className="menu--links-link aic"
             >
-              Pre-Sale
+              Pre-Sale Dashboard
             </a>
           </div>
         </div>

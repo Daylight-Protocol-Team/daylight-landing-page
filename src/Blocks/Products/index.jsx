@@ -10,7 +10,7 @@ import ProjectApollo from "../../assets/img/brand/1-Products/ProjectApollo.svg";
 
 const Products = () => {
   return (
-    <div className="products--container aic">
+    <div className="products--container aic" id="products">
       <Icon imgsrc={icon2} />
       <div
         className="products--title"

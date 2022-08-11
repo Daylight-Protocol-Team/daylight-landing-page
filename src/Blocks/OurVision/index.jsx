@@ -17,11 +17,13 @@ const OurVision = () => {
         >
           <u style={{ textDecorationThickness: "3px" }}>OUR VISION</u>
         </div>
+        <br />
         <div className="ourvision--left-description-a">
           Daylight is strategically building to lead a revolution in DeFi by
           creating the most sustainable wealth generation and distribution
           protocol in the space.
         </div>
+        <br />
         <div className="ourvision--left-description-a">
           Project Daylight is pioneering fair wealth distribution and fostering
           the most complete ecosystem to support blockchain development, growth

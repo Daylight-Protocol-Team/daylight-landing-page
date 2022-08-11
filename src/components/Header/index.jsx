@@ -40,8 +40,15 @@ const Header = () => {
           >
             Our Vision
           </HashLink>
+          <HashLink
+            className="header--link hover-effect"
+            smooth={true}
+            to="#products"
+          >
+            Products
+          </HashLink>
 
-          <div className="header--link   header--link-options aic">
+          {/* <div className="header--link   header--link-options aic">
             <div className="aic">Products</div>
             <img
               className="header--link-tab aic"
@@ -63,9 +70,9 @@ const Header = () => {
                 Project Orion
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="header--link   header--link-options aic">
-            <div className="aic">Mechanisms</div>
+            <div className="aic">Ecosystem</div>
             <img
               className="header--link-tab aic"
               src={tabIcon}
@@ -97,12 +104,19 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="header--link hover-effect">Documentation</div>
+          <a
+            href="https://daylight-protocol.gitbook.io/litepaper/"
+            target={"_blank"}
+            rel="noreferrer"
+            className="header--link hover-effect"
+          >
+            Litepaper
+          </a>
           <a
             href="https://presale.daylightprotocol.com"
             className="header--link hover-effect"
           >
-            Pre-Sale
+            Pre-Sale Dashboard
           </a>
         </div>
 
