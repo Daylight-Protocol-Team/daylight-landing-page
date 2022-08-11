@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import Icon from "..//../Icon";
 import arrowBack from "../../..//assets/img/icons/arrowBack.svg";
@@ -11,30 +11,126 @@ import { HashLink } from "react-router-hash-link";
 import tabIcon from "../../../assets/img/icons/tab.svg";
 
 const Menu = ({ isOpen, close }) => {
+  const [isOpenTab1, setisOpenTab1] = useState(false);
+  const [isOpenTab2, setisOpenTab2] = useState(false);
   return (
     <div
       className={
         isOpen ? "menu-container-open aic" : "menu-container-close aic"
       }
     >
-      <div className="menu--close" onClick={() => close()}>
-        <Icon
-          imgsrc={arrowBack}
-          classnamestyle="menu--close-icon aic hover-effect"
-        />
-      </div>
-      <Icon imgsrc={LogoBrand} classnamestyle="menu--" />
+      <div className="menu--top aic">
+        <div className="menu-header aic">
+          <div className="menu--close " onClick={() => close()}>
+            <Icon
+              imgsrc={arrowBack}
+              classnamestyle="menu--close-icon aic hover-effect"
+            />
+          </div>
+          <Icon imgsrc={LogoBrand} classnamestyle="menu--brand" />
+        </div>
+        <div className="menu--links-outer">
+          <div className="menu--links aic">
+            <a href="/" className="menu--links-link aic">
+              Home
+            </a>
+            <HashLink
+              onClick={() => close()}
+              smooth={true}
+              to="#ourvision"
+              className="menu--links-link aic"
+            >
+              Our Vision
+            </HashLink>
+            <div
+              className="menu--links-link aic menu--links-tab"
+              onClick={() => setisOpenTab1((prev) => !prev)}
+            >
+              Projects
+              <img
+                className="menu--link-tab aic"
+                src={tabIcon}
+                alt="icon-alt"
+                draggable="false"
+              />
+            </div>
+            <div
+              className={
+                isOpenTab1
+                  ? "menu--links-tab-open aic"
+                  : "menu--links-tab-close aic"
+              }
+            >
+              <div className="menu--links-tab-option "> Project Apollo</div>
+              <div className=" menu--links-tab-option"> Phoenicis Roulette</div>
+              <div className=" menu--links-tab-option"> Casa Daylight</div>
+              <div className=" menu--links-tab-option"> Project Orion</div>
+            </div>
 
-      <div className="menu--links aic">
-        <HashLink
+            <div
+              className="menu--links-link aic menu--links-tab"
+              onClick={() => setisOpenTab2((prev) => !prev)}
+            >
+              Mechanisms
+              <img
+                className="menu--link-tab aic"
+                src={tabIcon}
+                alt="icon-alt"
+                draggable="false"
+              />
+            </div>
+            <div
+              className={
+                isOpenTab2
+                  ? "menu--links-tab-open aic"
+                  : "menu--links-tab-close aic"
+              }
+            >
+              <HashLink
+                onClick={() => close()}
+                smooth={true}
+                to="#whydaylight"
+                className="menu--links-tab-option"
+              >
+                Why Daylight
+              </HashLink>
+              <HashLink
+                onClick={() => close()}
+                smooth={true}
+                to="#roadmap"
+                className="menu--links-tab-option"
+              >
+                Roadmap
+              </HashLink>
+              <HashLink
+                onClick={() => close()}
+                smooth={true}
+                to="#tokenomics"
+                className="menu--links-tab-option"
+              >
+                Tokenomics
+              </HashLink>
+            </div>
+            <div className="menu--links-link aic">Documentation</div>
+            <a
+              href="https://presale.daylightprotocol.com"
+              className="menu--links-link aic"
+            >
+              Pre-Sale
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* <HashLink
           onClick={() => close()}
           smooth={true}
           to="#ourvision"
-          className="hover-effect menu--links-link"
+          className="hover-effect menu--links-link aic"
         >
           Our Vision
         </HashLink>
-        <div className="menu--links-link aic menu--link-options">
+        <div className="menu--links-link aic aic menu--link-options">
           Products
           <img
             className="menu--link-tab aic"
@@ -57,7 +153,7 @@ const Menu = ({ isOpen, close }) => {
             </div>
           </div>
         </div>
-        <div className="menu--links-link aic menu--link-options">
+        <div className="menu--links-link aic aic menu--link-options">
           Mechanics
           <img
             className="menu--link-tab aic"
@@ -70,7 +166,7 @@ const Menu = ({ isOpen, close }) => {
               onClick={() => close()}
               smooth={true}
               to="#whydaylight"
-              className="menu--links-link hover-effect-c"
+              className="menu--links-link aic hover-effect-c"
             >
               Why Daylight
             </HashLink>
@@ -82,14 +178,13 @@ const Menu = ({ isOpen, close }) => {
             </div>
           </div>
         </div>
-        <div className="hover-effect menu--links-link">Documentation</div>
+        <div className="hover-effect menu--links-link aic">Documentation</div>
         <a
           href="https://presale.daylightprotocol.com"
-          className="hover-effect menu--links-link"
+          className="hover-effect menu--links-link aic"
         >
           Pre-Sale
-        </a>
-      </div>
+        </a> */}
       <div className="menu--bottom aic">
         <div className="menu--socials aic">
           <Icon

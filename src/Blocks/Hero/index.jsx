@@ -4,8 +4,8 @@ import Button from "../../components/Button";
 import "./style.css";
 
 import Lottie from "lottie-react";
-import fenix from "../../assets/img/brand/Fenix-Hill.svg";
-// import fenix from "../..//assets/animations/1-Fenix.json";
+// import fenix from "../../assets/img/brand/Fenix-Hill.svg";
+import fenix from "../..//assets/animations/1-Fenix.json";
 import Mountainlottie from "../..//assets/animations/2-Mountain.json";
 import planets from "../..//assets/animations//3-Planets.json";
 
@@ -35,7 +35,7 @@ const HeroSection = ({ offsetY }) => {
         </div>
       </div>
       <div className="hero--fenix">
-        <img
+        {/* <img
           style={{
             transform: `translateY(${offsetY * 0.5}px)`,
             transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
@@ -44,10 +44,16 @@ const HeroSection = ({ offsetY }) => {
           src={fenix}
           alt="brand animation"
           draggable="false"
-        />
-        {/* <div className="icon--imgbg"> *
-        <Lottie animationData={fenix} loop={true} /> 
-       </div> */}
+        /> */}
+        <div
+          className="icon--imgbg"
+          style={{
+            transform: `translateY(${offsetY * 0.5}px)`,
+            transition: "transform 0.6s cubic-bezier(0, 0, 0, 1) 0s",
+          }}
+        >
+          <Lottie animationData={fenix} loop={true} />
+        </div>
       </div>
 
       <div className="hero-container-header">

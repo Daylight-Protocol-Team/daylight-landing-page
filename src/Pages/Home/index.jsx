@@ -5,6 +5,9 @@ import OurVision from "../../Blocks/OurVision";
 import Features from "../../Blocks/Features";
 import WhyDaylight from "../../Blocks/WhyDaylight";
 import Footer from "../../components/Footer";
+import Products from "../../Blocks/Products";
+import Roadmap from "../../Blocks/RoadMap";
+import Tokenomics from "../../Blocks/Tokenomics";
 
 const Home = () => {
   const [offsetY, setoffsetY] = useState(0);
@@ -21,7 +24,10 @@ const Home = () => {
     <Body>
       <Hero offsetY={offsetY > 1000 ? 1000 : offsetY} />
       <OurVision />
+      <Products />
       <WhyDaylight />
+      <Roadmap />
+      <Tokenomics />
       <Features />
       <Footer />
     </Body>

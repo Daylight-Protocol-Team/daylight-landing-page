@@ -80,12 +80,20 @@ const Header = () => {
               >
                 Why Daylight
               </HashLink>
-              <div className="header--link-options-list-option-disable ">
+              <HashLink
+                smooth={true}
+                to="#roadmap"
+                className="header--link hover-effect-c"
+              >
                 Roadmap
-              </div>
-              <div className="header--link-options-list-option-disable ">
+              </HashLink>
+              <HashLink
+                smooth={true}
+                to="#tokenomics"
+                className="header--link hover-effect-c"
+              >
                 Tokenomics
-              </div>
+              </HashLink>
             </div>
           </div>
 
