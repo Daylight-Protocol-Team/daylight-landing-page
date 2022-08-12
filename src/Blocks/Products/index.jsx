@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Icon from "../../components/Icon";
-import icon2 from "../../assets/img/icons/stone2.svg";
+import icon2 from "../../assets/img/icons/stoneA.svg";
 //
 import CasaDaylight from "../../assets/img/brand/1-Products/CasaDaylight.svg";
 import ProjectOrion from "../../assets/img/brand/1-Products//ProjectOrion.svg";

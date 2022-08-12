@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import Icon from "../../components/Icon";
-import icon1 from "../../assets/img/icons/stone1.svg";
+import icon1 from "../../assets/img/icons/stoneE.svg";
 
 import leftArrow from "../../assets/img/icons/leftArrow.svg";
 import rightArrow from "../../assets/img/icons/rightArrow.svg";
@@ -27,14 +27,14 @@ const Features = () => {
   }, []);
   return (
     <div className="features-container aic" id="mechanics">
-      <Icon imgsrc={icon1} />
+      <Icon imgsrc={icon1} classnamestyle="features-icon" />
       <div
         className="features--title"
         data-aos="fade-down"
         data-aos-delay="200"
         data-aos-easing="ease-in-out"
       >
-        SUSTAINABILITY AND LONGEVITY DRIVEN
+        Sustainability and Longevity Driven
       </div>
       <div className="aic">
         <div

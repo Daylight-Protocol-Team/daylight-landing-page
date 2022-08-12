@@ -93,7 +93,7 @@ const Footer = () => {
           </HashLink>
         </div>
         <div className="footer-top-list aic">
-          <div className="footer-top-list-title">Documention</div>
+          <div className="footer-top-list-title">Documentation</div>
 
           <a
             href="https://daylight-protocol.gitbook.io/litepaper/"

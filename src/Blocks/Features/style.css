@@ -9,6 +9,10 @@
   position: relative;
   z-index: 0;
 }
+.features-icon {
+  width: 53.22px;
+  height: 53.68px;
+}
 .features--title {
   font-family: "Space Grotesk";
   font-style: normal;

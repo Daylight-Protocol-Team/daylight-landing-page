@@ -1,7 +1,7 @@
 import React from "react";
 import Icon from "../../components/Icon";
 import "./style.css";
-import icon1 from "../../assets/img/icons/stone1.svg";
+import icon1 from "../../assets/img/icons/stoneB.svg";
 import icon6 from "../../assets/img/icons/stone6.svg";
 import icon7 from "../../assets/img/icons/stone7.svg";
 import robotArm from "../../assets/img/icons/robotArm.svg";
