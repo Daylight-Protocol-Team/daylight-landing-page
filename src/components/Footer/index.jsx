@@ -113,12 +113,12 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-top-sub aic">
-          <div className="footer-top-sub-title">Launch dapp </div>
+          <div className="footer-top-sub-title">Launch dApp </div>
           {/* <div className="footer-top-sub-option">
             Get the latest news and updates
           </div> */}
           <button type="button" className="footer-top-sub-button aic">
-            coming soon
+            Coming Soon
           </button>
         </div>
       </div>
