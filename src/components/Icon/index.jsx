@@ -3,7 +3,13 @@ import "./style.css";
 const Icon = (props) => {
   const { imgsrc, link, classnamestyle, extrastyle } = props;
   return (
-    <a className={classnamestyle} href={link} style={extrastyle}>
+    <a
+      className={classnamestyle}
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      style={extrastyle}
+    >
       <img
         {...props}
         className="icon--img"
