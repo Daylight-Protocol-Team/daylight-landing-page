@@ -23,6 +23,8 @@ const Footer = () => {
             Our Vision
           </HashLink>
           <a
+            target={"_blank"}
+            rel="noreferrer"
             href="https://presale.daylightprotocol.com"
             className="footer-top-list-option hover-effect"
           >
@@ -30,19 +32,41 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-top-list aic">
-          <div className="footer-top-list-title">Products</div>
-          <div className="footer-top-list-option hover-effect">
+          <HashLink
+            className="footer-top-list-title hover-effect"
+            smooth={true}
+            to="#products"
+          >
+            Products
+          </HashLink>
+          <HashLink
+            className="footer-top-list-option hover-effect"
+            smooth={true}
+            to="#products"
+          >
             Project Orion
-          </div>
-          <div className="footer-top-list-option hover-effect">
+          </HashLink>
+          <HashLink
+            className="footer-top-list-option hover-effect"
+            smooth={true}
+            to="#products"
+          >
             Casa Daylight
-          </div>
-          <div className="footer-top-list-option hover-effect">
+          </HashLink>
+          <HashLink
+            className="footer-top-list-option hover-effect"
+            smooth={true}
+            to="#products"
+          >
             Phoenicis Roulette
-          </div>
-          <div className="footer-top-list-option hover-effect">
+          </HashLink>
+          <HashLink
+            className="footer-top-list-option hover-effect"
+            smooth={true}
+            to="#products"
+          >
             Project Apollo
-          </div>
+          </HashLink>
         </div>
         <div className="footer-top-list aic">
           <div className="footer-top-list-title">Ecosystem</div>
@@ -80,6 +104,8 @@ const Footer = () => {
             Litepaper
           </a>
           <a
+            target={"_blank"}
+            rel="noreferrer"
             href="https://daylight-protocol.gitbook.io/litepaper/pre-sale-and-launch"
             className="footer-top-list-option hover-effect"
           >
@@ -87,14 +113,12 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-top-sub aic">
-          <div className="footer-top-sub-title">
-            Subscribe to Daylight newsletter
-          </div>
-          <div className="footer-top-sub-option">
+          <div className="footer-top-sub-title">Launch dapp </div>
+          {/* <div className="footer-top-sub-option">
             Get the latest news and updates
-          </div>
+          </div> */}
           <button type="button" className="footer-top-sub-button aic">
-            Coming Soon
+            coming soon
           </button>
         </div>
       </div>

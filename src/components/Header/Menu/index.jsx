@@ -11,7 +11,7 @@ import { HashLink } from "react-router-hash-link";
 import tabIcon from "../../../assets/img/icons/tab.svg";
 
 const Menu = ({ isOpen, close }) => {
-  // const [isOpenTab1, setisOpenTab1] = useState(false);
+  const [isOpenTab1, setisOpenTab1] = useState(false);
   const [isOpenTab2, setisOpenTab2] = useState(false);
   return (
     <div
@@ -42,15 +42,15 @@ const Menu = ({ isOpen, close }) => {
             >
               Our Vision
             </HashLink>
-            <HashLink
+            {/* <HashLink
               onClick={() => close()}
               smooth={true}
               to="#products"
               className="menu--links-link aic"
             >
               Products
-            </HashLink>
-            {/* <div
+            </HashLink> */}
+            <div
               className="menu--links-link aic menu--links-tab"
               onClick={() => setisOpenTab1((prev) => !prev)}
             >
@@ -69,11 +69,39 @@ const Menu = ({ isOpen, close }) => {
                   : "menu--links-tab-close aic"
               }
             >
-              <div className="menu--links-tab-option "> Project Apollo</div>
-              <div className=" menu--links-tab-option"> Phoenicis Roulette</div>
-              <div className=" menu--links-tab-option"> Casa Daylight</div>
-              <div className=" menu--links-tab-option"> Project Orion</div>
-            </div> */}
+              <HashLink
+                onClick={() => close()}
+                smooth={true}
+                to="#products"
+                className="menu--links-tab-option"
+              >
+                Project Apollo
+              </HashLink>
+              <HashLink
+                onClick={() => close()}
+                smooth={true}
+                to="#products"
+                className="menu--links-tab-option"
+              >
+                Phoenicis Roulette
+              </HashLink>
+              <HashLink
+                onClick={() => close()}
+                smooth={true}
+                to="#products"
+                className="menu--links-tab-option"
+              >
+                Casa Daylight
+              </HashLink>
+              <HashLink
+                onClick={() => close()}
+                smooth={true}
+                to="#products"
+                className="menu--links-tab-option"
+              >
+                Project Orion
+              </HashLink>
+            </div>
 
             <div
               className="menu--links-link aic menu--links-tab"
@@ -121,6 +149,8 @@ const Menu = ({ isOpen, close }) => {
             </div>
             <div className="menu--links-link aic">Litepaper</div>
             <a
+              target={"_blank"}
+              rel="noreferrer"
               href="https://presale.daylightprotocol.com"
               className="menu--links-link aic"
             >

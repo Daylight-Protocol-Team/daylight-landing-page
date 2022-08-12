@@ -95,6 +95,8 @@ const HeroSection = ({ offsetY }) => {
             </div>
             <div className="hero--left-buttons">
               <a
+                target={"_blank"}
+                rel="noreferrer"
                 href="https://presale.daylightprotocol.com/"
                 style={{ textDecoration: "none", width: "100%" }}
               >

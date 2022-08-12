@@ -113,6 +113,8 @@ const Header = () => {
             Litepaper
           </a>
           <a
+            target={"_blank"}
+            rel="noreferrer"
             href="https://presale.daylightprotocol.com"
             className="header--link hover-effect"
           >

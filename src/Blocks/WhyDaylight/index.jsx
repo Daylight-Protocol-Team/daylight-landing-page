@@ -40,6 +40,8 @@ const whydaylight = () => {
           minutes for every web3 wallet holding any $DAYLIGHT tokens.
         </div>
         <a
+          target={"_blank"}
+          rel="noreferrer"
           href="https://presale.daylightprotocol.com/"
           style={{ textDecoration: "none", width: "100%" }}
         >

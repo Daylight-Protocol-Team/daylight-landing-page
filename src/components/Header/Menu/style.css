@@ -62,6 +62,26 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+.menu--links::-webkit-scrollbar {
+  cursor: pointer;
+  width: 4px;
+  height: 4px;
+  box-sizing: border-box;
+}
+.menu--links::-webkit-scrollbar-track {
+  border-radius: 3px;
+  border: 1px solid transparent;
+  background: transparent;
+  backdrop-filter: blur(4px);
+}
+
+.menu--links::-webkit-scrollbar-thumb {
+  background: #a292a4;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
 
 .menu--links-link {
   font-family: "Play";
