@@ -34,9 +34,9 @@ const whydaylight = () => {
           data-aos-delay="300"
           data-aos-easing="ease-in-out"
         >
-          $DAYLIGHT is an elastic supply token that runs on the Avalanche chain
-          and rewards holders through conventional, sustained positive rebases,
-          with an APY of 160,589.28%. Interest rewards are compounded every 30
+          $DAYLIGHT is an elastic supply token that runs on the BNB Chain and
+          rewards holders through conventional, sustained positive rebases, with
+          an APY of 160,589.28%. Interest rewards are compounded every 30
           minutes for every web3 wallet holding any $DAYLIGHT tokens.
         </div>
         <a
