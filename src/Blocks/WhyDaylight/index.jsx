@@ -74,7 +74,7 @@ const whydaylight = () => {
         <Card
           img={security}
           title="Risk Free Value"
-          desc="Daylight Protocol is a decentralized auto-staking ecosystem with incentivized extensions that has been strategically created to disrupt decentralized earning and propel freedom of financial limitations, while rewarding users for contributions to the ecosystem with an appreciated earning over time."
+          desc="The Risk Free Value is an additional multi-sig vault that is used to sustain and stabilize the liquidity pool. This is especially helpful if there is a sudden sell-off that might deplete the available liquidity. Since liquidity is what enables the buying and selling of the Daylight token, this might be problematic. During a sudden sell-off, the RFV acts as a liquidity reserve and stops this from happening."
         />
       </div>
     </div>
