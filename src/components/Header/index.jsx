@@ -143,7 +143,7 @@ const Header = () => {
           />
           <Icon
             imgsrc={telegramIcon}
-            link="https://t.me/Daylightprotocol"
+            link="https://t.me/DaylightDefi"
             classnamestyle="header--social-icon aic hover-effect"
             data-aos="fade-up"
             data-aos-delay="350"

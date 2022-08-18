@@ -143,7 +143,7 @@ const Footer = () => {
           />
           <Icon
             imgsrc={telegramIcon}
-            link="https://t.me/Daylightprotocol"
+            link="https://t.me/DaylightDefi"
             classnamestyle="footer--social aic hover-effect"
           />
           <Icon

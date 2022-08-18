@@ -232,7 +232,7 @@ const Menu = ({ isOpen, close }) => {
           />
           <Icon
             imgsrc={TelegramIcon}
-            link="https://t.me/Daylightprotocol"
+            link="https://t.me/DaylightDefi"
             classnamestyle="menu--socials-social aic hover-effect"
           />
           <Icon
