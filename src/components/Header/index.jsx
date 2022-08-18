@@ -134,7 +134,7 @@ const Header = () => {
           />
           <Icon
             imgsrc={discordIcon}
-            link="https://discord.com/invite/wSagPDSfh3"
+            link="https://discord.gg/CsRc6AVZbZ"
             classnamestyle="header--social-icon aic hover-effect"
             data-aos="fade-up"
             data-aos-delay="250"
