@@ -86,7 +86,7 @@ const Features = () => {
             data-aos-easing="ease-in-out"
             title="Daylight Token"
             lottie={tokencard}
-            description="$DAYL token is a deflationary C-Chain token with an elastic supply that rewards holders with a positive rebase reward over time for just holding. "
+            description="$DAYL token is a deflationary BEP20 token with an elastic supply that rewards holders with a positive rebase reward over time for just holding. "
           />
         </SwiperSlide>
         <SwiperSlide className="aic">
