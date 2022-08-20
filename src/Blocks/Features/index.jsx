@@ -71,11 +71,14 @@ const Features = () => {
           850: {
             slidesPerView: 2,
           },
-          1250: {
+          1050: {
             slidesPerView: 3,
           },
-          1650: {
+          1250: {
             slidesPerView: 4,
+          },
+          1650: {
+            slidesPerView: 5,
           },
         }}
       >
