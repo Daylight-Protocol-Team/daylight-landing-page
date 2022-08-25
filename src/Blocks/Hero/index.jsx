@@ -88,10 +88,10 @@ const HeroSection = ({ offsetY }) => {
               data-aos-easing="ease-in-out"
               className="hero--left-description-a"
             >
-              Daylight Protocol is a decentralized income mechanism on BNB
-              Chain(BNB) that rewards holders at a set APY of 160,589.28 percent
-              that is sustainable and calculated with efficiency in parallel to
-              RFV sustainability and survivability.
+              Daylight Protocol is a decentralized income mechanism on the BNB
+              Chain (BEP-20) that rewards holders at a set APY of 160,589.28
+              percent that is sustainable and calculated with efficiency in
+              parallel to RFV sustainability and survivability.
             </div>
             <div className="hero--left-buttons">
               <a
