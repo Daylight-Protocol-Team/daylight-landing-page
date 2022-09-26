@@ -118,7 +118,7 @@ const Header = () => {
             href="https://www.pinksale.finance/launchpad/0xA179446a193248F3dB5F05E2B5C7Aa8de6885eA0?chain=BSC"
             className="header--link hover-effect"
           >
-            PreSale Dashboard
+            PreSale
           </a>
         </div>
 
