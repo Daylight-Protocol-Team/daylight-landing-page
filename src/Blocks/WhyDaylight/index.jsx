@@ -42,7 +42,7 @@ const whydaylight = () => {
         <a
           target={"_blank"}
           rel="noreferrer"
-          href="https://presale.daylightprotocol.com/"
+          href="https://www.pinksale.finance/launchpad/0xA179446a193248F3dB5F05E2B5C7Aa8de6885eA0?chain=BSC"
           style={{ textDecoration: "none", width: "100%" }}
         >
           <Button
@@ -51,7 +51,7 @@ const whydaylight = () => {
             data-aos-delay="400"
             data-aos-easing="ease-in-out"
           >
-            Pledge for the Public Pre-Sale
+            Pledge for the Public PreSale
           </Button>
         </a>
       </div>

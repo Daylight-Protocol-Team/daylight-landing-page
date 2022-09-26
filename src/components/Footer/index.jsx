@@ -25,10 +25,10 @@ const Footer = () => {
           <a
             target={"_blank"}
             rel="noreferrer"
-            href="https://presale.daylightprotocol.com"
+            href="https://www.pinksale.finance/launchpad/0xA179446a193248F3dB5F05E2B5C7Aa8de6885eA0?chain=BSC"
             className="footer-top-list-option hover-effect"
           >
-            Pre-Sale Dashboard
+            PreSale Dashboard
           </a>
         </div>
         <div className="footer-top-list aic">
@@ -106,10 +106,10 @@ const Footer = () => {
           <a
             target={"_blank"}
             rel="noreferrer"
-            href="https://daylight-protocol.gitbook.io/litepaper/pre-sale-and-launch"
+            href="https://daylight-protocol.gitbook.io/litepaper/PreSale-and-launch"
             className="footer-top-list-option hover-effect"
           >
-            Pre-Sale
+            PreSale
           </a>
         </div>
         <div className="footer-top-sub aic">

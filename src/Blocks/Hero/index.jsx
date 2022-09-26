@@ -97,7 +97,7 @@ const HeroSection = ({ offsetY }) => {
               <a
                 target={"_blank"}
                 rel="noreferrer"
-                href="https://presale.daylightprotocol.com/"
+                href="https://www.pinksale.finance/launchpad/0xA179446a193248F3dB5F05E2B5C7Aa8de6885eA0?chain=BSC"
                 style={{ textDecoration: "none", width: "100%" }}
               >
                 <Button
@@ -106,7 +106,7 @@ const HeroSection = ({ offsetY }) => {
                   data-aos-offset="-100"
                   data-aos-easing="ease-in-out"
                 >
-                  Pre-Sale
+                  PreSale
                 </Button>
               </a>
               <Button
