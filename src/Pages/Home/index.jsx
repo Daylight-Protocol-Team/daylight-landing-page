@@ -8,6 +8,7 @@ import Footer from "../../components/Footer";
 import Products from "../../Blocks/Products";
 import Roadmap from "../../Blocks/RoadMap";
 import Tokenomics from "../../Blocks/Tokenomics";
+import Partners from "../../Blocks/Partners";
 
 const Home = () => {
   const [offsetY, setoffsetY] = useState(0);
@@ -29,6 +30,7 @@ const Home = () => {
       <Roadmap />
       <Tokenomics />
       <Features />
+      <Partners />
       <Footer />
     </Body>
   );

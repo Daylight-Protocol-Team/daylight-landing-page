@@ -156,6 +156,14 @@ const Menu = ({ isOpen, close }) => {
             >
               PreSale
             </a>
+            <HashLink
+              onClick={() => close()}
+              className="header--link hover-effect"
+              smooth={true}
+              to="#partners"
+            >
+              Partners
+            </HashLink>
           </div>
         </div>
       </div>

@@ -120,6 +120,13 @@ const Header = () => {
           >
             PreSale
           </a>
+          <HashLink
+            className="header--link hover-effect"
+            smooth={true}
+            to="#partners"
+          >
+            Partners
+          </HashLink>
         </div>
 
         <div className="header--social">

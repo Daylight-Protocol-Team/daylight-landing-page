@@ -30,6 +30,13 @@ const Footer = () => {
           >
             PreSale
           </a>
+          <HashLink
+            className="footer-top-list-option hover-effect"
+            smooth={true}
+            to="#partners"
+          >
+            Partners
+          </HashLink>
         </div>
         <div className="footer-top-list aic">
           <HashLink
