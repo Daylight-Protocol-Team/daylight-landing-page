@@ -147,7 +147,15 @@ const Menu = ({ isOpen, close }) => {
                 Tokenomics
               </HashLink>
             </div>
-            <div className="menu--links-link aic">Litepaper</div>
+            {/* <div className="menu--links-link aic">Litepaper</div> */}
+            <a
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://daylight-protocol.gitbook.io/litepaper/"
+              className="menu--links-link aic"
+            >
+              Litepaper
+            </a>
             <a
               target={"_blank"}
               rel="noreferrer"
