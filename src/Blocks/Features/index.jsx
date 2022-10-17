@@ -89,7 +89,7 @@ const Features = () => {
             data-aos-easing="ease-in-out"
             title="Daylight Token"
             lottie={tokencard}
-            description="$DAYL token is a deflationary BEP20 token with an elastic supply that rewards holders with a positive rebase reward over time for just holding. "
+            description="Project Daylight's Daylight Token is the world's first ever true wealth generation token that sustains an ever appreciating floor value by utilizing transaction finality and ecosystem utilities. "
           />
         </SwiperSlide>
         <SwiperSlide className="aic">
@@ -98,8 +98,8 @@ const Features = () => {
             data-aos-delay="300"
             data-aos-easing="ease-in-out"
             lottie={compound}
-            title="Auto-Compound"
-            description="Through an auto-rebase system and fixed compound interest automatic staking protocol, holders get rewards directly in their wallets at a set APY of 160,589.28 percent.      "
+            title="Staking and Farming Rewards"
+            description="Token holders can stake $DAYL or LP-Tokens in order to accumulate greater rewards over time, enabling the protocol to continue to reproduce lucrative wealth generation to holders. "
           />
         </SwiperSlide>
         <SwiperSlide className="aic">
@@ -108,8 +108,8 @@ const Features = () => {
             data-aos-delay="400"
             data-aos-easing="ease-in-out"
             lottie={rfv}
-            title="Daylight RFV"
-            description="An independent wallet in the Daylight Protocol ecosystem is called the RFV. A percentage of the buy and sell trading costs that accumulate in the RFV, together with an algorithm that supports the Rebase Rewards, are used to fund the vault."
+            title="Extreme Sustainability"
+            description="Our protocol utilizes fractional liquidity as well as redeemable assets which act as collaterals for the floor price. This ensures that even in the event of shallow liquidity, holders would still be able to redeem the floor price value by employing a sell-burn to the token contract."
           />
         </SwiperSlide>
         <SwiperSlide className="aic">
@@ -118,8 +118,8 @@ const Features = () => {
             data-aos-delay="500"
             data-aos-easing="ease-in-out"
             lottie={dynamic}
-            title="Dynamic Taxation"
-            description="Our dynamic taxation seeks to reduce price manipulation by charging sales and wallet transfers additionally according to the size of the share the holder possesses in reference to Daylight's LP. This makes it impossible for someone with a large number of tokens in the ecosystem to dump the market."
+            title="Taxes to Raise Floor Price"
+            description="The price floor appreciation procedure relies on Daylight token's purchase and sell taxes. They offer funds for important protocol operations as well as general sustainability and long-term ongoing growth."
           />
         </SwiperSlide>
         <SwiperSlide className="aic">
@@ -130,7 +130,7 @@ const Features = () => {
             // img={icon6}
             lottie={diamond}
             title="Daylight Vault"
-            description="The Daylight Vault is a protected safe that stores certain transactional fees received from the protocol and are used to extend the ecosystem by developing use cases for sustainability in regards to the Daylight Token. Daylight Vault is also considered as a SAFU fund for the protocol in the event of any DeFi related exploitations or loss of protocol funds."
+            description="The Daylight Vault is a revenue reserve used to prolong development, feed floor price appreciation, buyback and burn the token, and to extend the ecosystem and invest in ideas for sustainability."
           />
         </SwiperSlide>
       </Swiper>
