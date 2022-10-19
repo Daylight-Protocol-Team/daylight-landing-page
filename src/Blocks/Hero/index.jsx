@@ -81,6 +81,7 @@ const HeroSection = ({ offsetY }) => {
               to mitigate price manipulation, depreciating value, and combat sustainability
               issues faced by other protocols in the space
             </div>
+            <br/>
             <div
               data-aos="fade-up"
               data-aos-delay="400"
@@ -89,7 +90,8 @@ const HeroSection = ({ offsetY }) => {
               className="hero--left-description-a"
             >
               Project Daylight's innovative $DAYL token is the first ever true wealth generation cryptocurrency that enables token holders to accumulate rewards over time. The Daylight Token is the world's first ever true wealth generation token that sustains an ever appreciating floor value by utilizing transaction finality and ecosystem utilities.
-            </div>
+            </div><br/>
+            <br/>
             <div className="hero--left-buttons">
               <a
                 target={"_blank"}
