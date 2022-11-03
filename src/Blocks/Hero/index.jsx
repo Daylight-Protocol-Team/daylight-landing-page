@@ -76,12 +76,9 @@ const HeroSection = ({ offsetY }) => {
               data-aos-easing="ease-in-out"
               className="hero--left-description-a"
             >
-              Project Daylight is DeFi&apos;s first ever TRUE WEALTH GENERATION Protocol
-              created with the intention to stabilize DeFi by ascertaining measures 
-              to mitigate price manipulation, depreciating value, and combat sustainability
-              issues faced by other protocols in the space
+              Daylight was created with the intention to stabilize the DeFi 3.0 space by ascertaining measures in place to mitigate price manipulation, depreciating value and combat sustainability issues faced by other protocols in the space.
             </div>
-            <br/>
+            <br />
             <div
               data-aos="fade-up"
               data-aos-delay="400"
@@ -89,9 +86,8 @@ const HeroSection = ({ offsetY }) => {
               data-aos-easing="ease-in-out"
               className="hero--left-description-a"
             >
-              Project Daylight's innovative $DAYL token is the first ever true wealth generation cryptocurrency that enables token holders to accumulate rewards over time. The Daylight Token is the world's first ever true wealth generation token that sustains an ever appreciating floor value by utilizing transaction finality and ecosystem utilities.
-            </div><br/>
-            <br/>
+              Daylight Protocol is a decentralized income mechanism on BNB Chain(BNB) that rewards holders at a set APY of 160,589.28 percent that is sustainable and calculated with efficiency in parallel to RFV sustainability and survivability.             </div><br />
+            <br />
             <div className="hero--left-buttons">
               <a
                 target={"_blank"}
@@ -105,7 +101,7 @@ const HeroSection = ({ offsetY }) => {
                   data-aos-offset="-100"
                   data-aos-easing="ease-in-out"
                 >
-                  PreSale
+                  Pre-Sale
                 </Button>
               </a>
               <Button
