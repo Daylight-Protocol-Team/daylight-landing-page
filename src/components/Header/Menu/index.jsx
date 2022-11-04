@@ -159,7 +159,7 @@ const Menu = ({ isOpen, close }) => {
             <a
               target={"_blank"}
               rel="noreferrer"
-              href="https://www.pinksale.finance/launchpad/0xA179446a193248F3dB5F05E2B5C7Aa8de6885eA0?chain=BSC"
+              href="https://presale.daylightprotocol.com"
               className="menu--links-link aic"
             >
               PreSale
@@ -234,7 +234,7 @@ const Menu = ({ isOpen, close }) => {
         </div>
         <div className="hover-effect menu--links-link aic">Documentation</div>
         <a
-          href="https://www.pinksale.finance/launchpad/0xA179446a193248F3dB5F05E2B5C7Aa8de6885eA0?chain=BSC"
+          href="https://presale.daylightprotocol.com"
           className="hover-effect menu--links-link aic"
         >
           PreSale

@@ -25,7 +25,7 @@ const Footer = () => {
           <a
             target={"_blank"}
             rel="noreferrer"
-            href="https://www.pinksale.finance/launchpad/0xA179446a193248F3dB5F05E2B5C7Aa8de6885eA0?chain=BSC"
+            href="https://presale.daylightprotocol.com"
             className="footer-top-list-option hover-effect"
           >
             PreSale

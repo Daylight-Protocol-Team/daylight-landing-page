@@ -76,7 +76,7 @@ const HeroSection = ({ offsetY }) => {
               data-aos-easing="ease-in-out"
               className="hero--left-description-a"
             >
-              Daylight was created with the intention to stabilize the DeFi 3.0 space by ascertaining measures in place to mitigate price manipulation, depreciating value and combat sustainability issues faced by other protocols in the space.
+              Project Daylight is DeFi's first ever TRUE WEALTH GENERATION protocol created with the intention to stabilize the DeFi 3.0 space by ascertaining measures in place to mitigate price manipulation, depreciating value and combat sustainability issues faced by other protocols in the space.
             </div>
             <br />
             <div
@@ -86,13 +86,13 @@ const HeroSection = ({ offsetY }) => {
               data-aos-easing="ease-in-out"
               className="hero--left-description-a"
             >
-              Daylight Protocol is a decentralized income mechanism on BNB Chain(BNB) that rewards holders at a set APY of 160,589.28 percent that is sustainable and calculated with efficiency in parallel to RFV sustainability and survivability.             </div><br />
+              Project Daylight's innovative $DAYL token is the first ever true wealth generation cryptocurrency that enables token holders to accumulate rewards over time. The Daylight Token is the world's first ever true wealth generation token that sustains an ever appreciating floor value by utilizing transaction finality and ecosystem utilities.             </div><br />
             <br />
             <div className="hero--left-buttons">
               <a
                 target={"_blank"}
                 rel="noreferrer"
-                href="https://www.pinksale.finance/launchpad/0xA179446a193248F3dB5F05E2B5C7Aa8de6885eA0?chain=BSC"
+                href="https://presale.daylightprotocol.com"
                 style={{ textDecoration: "none", width: "100%" }}
               >
                 <Button
