@@ -104,6 +104,12 @@ const HeroSection = ({ offsetY }) => {
                   Pre-Sale
                 </Button>
               </a>
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://dapp.daylightprotocol.com/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+                style={{ textDecoration: "none", width: "100%" }}
+              >
               <Button
                 style={{
                   whiteSpace: "nowrap",
@@ -113,8 +119,9 @@ const HeroSection = ({ offsetY }) => {
                 data-aos-offset="-100"
                 data-aos-easing="ease-in-out"
               >
-                dApp Launching Soon
+                Launch dApp
               </Button>
+							</a>
             </div>
           </div>
           <div className="hero--right"></div>
