@@ -12,6 +12,8 @@ import twitterIcon from "../../assets/img/socials/twitter.svg";
 import menuIcon from "../../assets/img/icons/menu.svg";
 import tabIcon from "../../assets/img/icons/tab.svg";
 
+import MenuButton from "../MenuButton";
+
 import Icon from "../Icon";
 import Menu from ".//Menu";
 //
@@ -127,6 +129,26 @@ const Header = () => {
           >
             Partners
           </HashLink>
+					
+					<a
+						target={"_blank"}
+						rel="noreferrer"
+						href="https://dapp.daylightprotocol.com/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+						style={{ textDecoration: "none" }}
+						// className="menu--links-link"
+					>
+						<MenuButton
+							style={{
+								whiteSpace: "nowrap",
+							}}
+							data-aos="fade-up-down"
+							data-aos-delay="700"
+							data-aos-offset="-100"
+							data-aos-easing="ease-in-out"
+						>
+							Launch dApp
+						</MenuButton>
+					</a>
         </div>
 
         <div className="header--social">

@@ -9,6 +9,7 @@ import DiscordIcon from "../../../assets/img/socials/discord.svg";
 import TwitterIcon from "../../../assets/img/socials/twitter.svg";
 import { HashLink } from "react-router-hash-link";
 import tabIcon from "../../../assets/img/icons/tab.svg";
+import MenuButton from "../../MenuButton";
 
 const Menu = ({ isOpen, close }) => {
   const [isOpenTab1, setisOpenTab1] = useState(false);
@@ -31,6 +32,25 @@ const Menu = ({ isOpen, close }) => {
         </div>
         <div className="menu--links-outer">
           <div className="menu--links aic">
+						<a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://dapp.daylightprotocol.com/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+                style={{ textDecoration: "none" }}
+								className="aic"
+              >
+              <MenuButton
+                style={{
+                  whiteSpace: "nowrap",
+                }}
+                data-aos="fade-up-down"
+                data-aos-delay="700"
+                data-aos-offset="-100"
+                data-aos-easing="ease-in-out"
+              >
+                Launch dApp
+              </MenuButton>
+						</a>
             <a href="/" className="menu--links-link aic">
               Home
             </a>
